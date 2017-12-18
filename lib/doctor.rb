@@ -11,6 +11,9 @@ class Doctor
     appointment.doctor = self
   end
 
+  def patients
+    binding.pry
+  end
 
 
 
