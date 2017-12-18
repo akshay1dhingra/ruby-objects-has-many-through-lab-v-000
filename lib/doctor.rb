@@ -11,7 +11,7 @@ class Doctor
     @appointments << appointment
     appointment.doctor = self
   end
-
+binding.pry
   def patients
     binding.pry
   end
